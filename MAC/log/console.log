@@ -1,0 +1,139 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim +access +r -advdataflow MAC_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5286 kB (elbread=1023 elab2=4117 kernel=145 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\blueb\OneDrive\STUDY\DSF_HOME\LAB05\MAC\src\wave.asdb
+#  11:26 AM, Saturday, August 27, 2016
+#  Simulation has been initialized
+#  Selected Top-Level: MAC_tb (MAC_tb)
+# add wave -noreg {/MAC_tb/SYS_CLK}
+# add wave -noreg {/MAC_tb/SCLR}
+# add wave -noreg {/MAC_tb/LOAD}
+# add wave -noreg {/MAC_tb/A}
+# add wave -noreg {/MAC_tb/B}
+# add wave -noreg {/MAC_tb/MAC_OUT}
+# add wave -noreg {/MAC_tb/S}
+# add wave -noreg {/MAC_tb/CLOCK_PERIOD}
+# add wave -noreg {/MAC_tb/RUN_TIME}
+# 9 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/blueb/OneDrive/STUDY/DSF_HOME/LAB05/MAC/src/wave.asdb'.
+run
+# RUNTIME: Info: RUNTIME_0068 MAC_TB.v (81): $finish called.
+# KERNEL: Time: 3600 ns,  Iteration: 0,  Instance: /MAC_tb,  Process: @INITIAL#SYSTEM_RUN_TIME@.
+# KERNEL: stopped at time: 3600 ns
+alog -O2 -l COOLRUNNERII -sve   -work MAC $dsn/src/HDL_Source/Verilog/MAC_PKG.v $dsn/src/HDL_Source/Verilog/TEST.v $dsn/src/HDL_Source/Verilog/MAC.v $dsn/src/TestBench/MAC_TB.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Warning: VCP2551 HDL_Source/Verilog/MAC.v : (6, 18): Extern module declaration does not match the module definition...
+# Info: VCP2552 HDL_Source/Verilog/MAC.v : (11, 11): ... see module definition.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: MAC_tb.
+# $root top modules: MAC_tb.
+# Compile success 0 Errors 1 Warnings  Analysis time: 1[s].
+# done
+alog -O2 -l COOLRUNNERII -sve   -work MAC $dsn/src/HDL_Source/Verilog/MAC.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2123 Package MAC_PKG found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module MAC_tb found in current working library.
+# $root top modules: MAC_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+asim +access +r -advdataflow MAC_tb
+#  Simulation has been stopped
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELBREAD: Error: Port 'S' not found.
+# ELBREAD: Error: Too many port connections. Region: /MAC_tb/UUT
+# KERNEL: Error: E8005 : Kernel process initialization failed.
+# Error: Fatal error occurred during simulation initialization.
+# Error: Cannot initialize functional simulation.
+vlcomp  -l COOLRUNNERII -work MAC "$dsn\src\TestBench\MAC_TB.v"
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2123 Package MAC_PKG found in current working library.
+# Info: VCP2113 Module MAC found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: MAC_tb.
+# $root top modules: MAC_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+asim +access +r -advdataflow MAC_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.1 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5286 kB (elbread=1023 elab2=4116 kernel=145 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\blueb\OneDrive\STUDY\DSF_HOME\LAB05\MAC\src\wave.asdb
+#  11:47 AM, Saturday, August 27, 2016
+#  Simulation has been initialized
+#  Selected Top-Level: MAC_tb (MAC_tb)
+# Waveform file 'untitled.awc' connected to 'C:/Users/blueb/OneDrive/STUDY/DSF_HOME/LAB05/MAC/src/wave.asdb'.
+# Warning: WAVEFORM: Object matching /MAC_tb/S not found in C:/Users/blueb/OneDrive/STUDY/DSF_HOME/LAB05/MAC/src/wave.asdb.
+# add wave -noreg {/MAC_tb/SYS_CLK}
+# add wave -noreg {/MAC_tb/SCLR}
+# add wave -noreg {/MAC_tb/LOAD}
+# add wave -noreg {/MAC_tb/A}
+# add wave -noreg {/MAC_tb/B}
+# add wave -noreg {/MAC_tb/MAC_OUT}
+# add wave -noreg {/MAC_tb/CLOCK_PERIOD}
+# add wave -noreg {/MAC_tb/RUN_TIME}
+# KERNEL: Warning: KERNEL_0291 Signal '/MAC_tb/SYS_CLK' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/MAC_tb/SCLR' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/MAC_tb/LOAD' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/MAC_tb/A' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/MAC_tb/B' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/MAC_tb/MAC_OUT' has already been traced.
+# 2 signal(s) traced.
+run
+# RUNTIME: Info: RUNTIME_0068 MAC_TB.v (79): $finish called.
+# KERNEL: Time: 3600 ns,  Iteration: 0,  Instance: /MAC_tb,  Process: @INITIAL#SYSTEM_RUN_TIME@.
+# KERNEL: stopped at time: 3600 ns
+endsim
+#  Simulation has been stopped

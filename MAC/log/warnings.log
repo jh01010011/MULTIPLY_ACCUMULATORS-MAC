@@ -1,0 +1,11 @@
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# Warning: VCP2551 HDL_Source/Verilog/MAC.v : (6, 18): Extern module declaration does not match the module definition...
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# Warning: WAVEFORM: Object matching /MAC_tb/S not found in C:/Users/blueb/OneDrive/STUDY/DSF_HOME/LAB05/MAC/src/wave.asdb.
+# KERNEL: Warning: KERNEL_0291 Signal '/MAC_tb/SYS_CLK' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/MAC_tb/SCLR' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/MAC_tb/LOAD' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/MAC_tb/A' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/MAC_tb/B' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/MAC_tb/MAC_OUT' has already been traced.

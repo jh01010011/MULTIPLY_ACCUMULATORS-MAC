@@ -1,0 +1,4 @@
+.\src\HDL_Source\Verilog\MAC_PKG.v
+.\src\HDL_Source\Verilog\TEST.v
+.\src\HDL_Source\Verilog\MAC.v
+.\src\TestBench\MAC_TB.v

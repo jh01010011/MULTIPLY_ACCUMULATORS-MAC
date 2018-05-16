@@ -1,0 +1,5 @@
+# ELBREAD: Error: Port 'S' not found.
+# ELBREAD: Error: Too many port connections. Region: /MAC_tb/UUT
+# KERNEL: Error: E8005 : Kernel process initialization failed.
+# Error: Fatal error occurred during simulation initialization.
+# Error: Cannot initialize functional simulation.

@@ -1,0 +1,54 @@
+timestamp=1472276870104
+
+[$root]
+A/$root=22|""|0|1*113439
+BinI32/$root=3*77544
+Version=9.3.2744.4995  (Windows)|0000001a789cd3cd51f0757456d0f53752d0cd5170f6f7f7090af5f3730df2f40400568706cb
+
+[MAC]
+A/MAC=22|./../src/HDL_Source/Verilog/MAC.v|13|1*111092
+BinI32/MAC=3*76042
+R=./../src/HDL_Source/Verilog/MAC.v|13
+Version=9.3.2744.4995  (Windows)|0000001a789cd3cd51f0757456d0f53752d0cd5170f6f7f7090af5f3730df2f40400568706cb
+
+[MAC_PKG]
+A/MAC_PKG=22|./../src/HDL_Source/Verilog/MAC_PKG.v|4|1*101868
+BinI32/MAC_PKG=3*69665
+R=./../src/HDL_Source/Verilog/MAC_PKG.v|4
+Version=9.3.2744.4995  (Windows)|0000001a789cd3cd51f0757456d0f53752d0cd5170f6f7f7090af5f3730df2f40400568706cb
+
+[MAC_tb]
+A/MAC_tb=22|./../src/TestBench/MAC_TB.v|3|1*113829
+BinI32/MAC_tb=3*77672
+R=./../src/TestBench/MAC_TB.v|3
+Version=9.3.2744.4995  (Windows)|0000001a789cd3cd51f0757456d0f53752d0cd5170f6f7f7090af5f3730df2f40400568706cb
+
+[TEST_PKG]
+A/TEST_PKG=22|./../src/HDL_Source/Verilog/TEST.v|4|1*103001
+BinI32/TEST_PKG=3*70178
+R=./../src/HDL_Source/Verilog/TEST.v|4
+Version=9.3.2744.4995  (Windows)|0000001a789cd3cd51f0757456d0f53752d0cd5170f6f7f7090af5f3730df2f40400568706cb
+
+[~A]
+C:/Users/blueb/OneDrive/STUDY/DSF_HOME/LAB05/MAC/src/HDL_Source/Verilog/MAC.v=0*55391*56068
+C:/Users/blueb/OneDrive/STUDY/DSF_HOME/LAB05/MAC/src/HDL_Source/Verilog/MAC_PKG.v=0*402*875
+C:/Users/blueb/OneDrive/STUDY/DSF_HOME/LAB05/MAC/src/HDL_Source/Verilog/MAC_PKG.v_TEST.v_MAC.v=0*7603*8233
+C:/Users/blueb/OneDrive/STUDY/DSF_HOME/LAB05/MAC/src/HDL_Source/Verilog/MAC_PKG.v_TEST.v_MAC.v_MAC_TB.v=0*52972*54268
+C:/Users/blueb/OneDrive/STUDY/DSF_HOME/LAB05/MAC/src/HDL_Source/Verilog/TEST.v=0*4752*5222
+C:/Users/blueb/OneDrive/STUDY/DSF_HOME/LAB05/MAC/src/TestBench/MAC_TB.v=0*57030*57861
+LastVerilogToplevel=MAC_tb
+ModifyID=733
+Version=73
+
+[~MFT]
+0=185|0MAC.mgf|57861|33022
+1=142|1MAC.mgf|113829|108853
+3=142|3MAC.mgf|77672|75015
+
+[~U]
+$root=12|0*56610|
+MAC=12|0*55034|
+MAC_PKG=12|0*51834||0x200000000000
+MAC_tb=12|0*56776||0x10
+TEST_PKG=12|0*52086||0x200000000000
+

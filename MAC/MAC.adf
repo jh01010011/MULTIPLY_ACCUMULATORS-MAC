@@ -1,0 +1,91 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=3
+Current Config=compile
+[Configurations]
+compile=MAC
+[Library]
+MAC=.\MAC\MAC.lib
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=0
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VERILOG
+REFRESH_FLOW=1
+SYNTH_TOOL=MV_PRECISIONRTL2011
+RUN_MODE_SYNTH=1
+IMPL_TOOL=MV_ISE82
+CSYNTH_TOOL=<none>
+PHYSSYNTH_TOOL=<none>
+FLOWTOOLS=IMPL_WITH_SYNTH
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+DVM_DISPLAY=NO
+VerilogDirsChanged=1
+FAMILY=Xilinx8x COOLRUNNER2
+FUNC_LIB=MAC
+[LocalVerilogSets]
+EnableSLP=0
+EnableDebug=0
+[LocalVhdlSets]
+CompileWithDebug=1
+[$LibMap$]
+MAC=.
+Active_lib=COOLRUNNERII
+xilinxun=COOLRUNNERII
+UnlinkedDesignLibrary=COOLRUNNERII
+DESIGNS=COOLRUNNERII
+[IMPLEMENTATION_XILINX8]
+impl_opt(dont_run_translate)=0
+impl_opt(dont_run_map)=0
+impl_opt(dont_run_place)=0
+impl_opt(dont_run_trace)=0
+impl_opt(dont_run_simulation)=0
+impl_opt(dont_run_fit)=0
+impl_opt(dont_run_bitgen)=1
+[IMPLEMENTATION]
+FLOW_STEPS_RESET=0
+UCF=
+[Verilog Library]
+COOLRUNNERII=
+[Groups]
+HDL_Source=1
+HDL_Source\Verilog=1
+TestBench=1
+[Files]
+HDL_Source\Verilog/MAC_PKG.v=-1
+HDL_Source\Verilog/TEST.v=-1
+HDL_Source\Verilog/MAC.v=-1
+TestBench/MAC_TB.v=-1
+TestBench/MAC_TB_runtest.do=-1
+[Files.Data]
+.\src\HDL_Source\Verilog\MAC_PKG.v=Verilog Source Code
+.\src\HDL_Source\Verilog\TEST.v=Verilog Source Code
+.\src\HDL_Source\Verilog\MAC.v=Verilog Source Code
+.\src\TestBench\MAC_TB.v=Verilog Test Bench
+.\src\TestBench\MAC_TB_runtest.do=Macro
+[SIM.FUNC]
+FJD=FunctionalSimTask
+FST=-all
+OPTION=0
+SERVERFARM_INCLUDE_INPUT_FILES=*.*
+SERVERFARM_EXCLUDE_INPUT_FILES=log\*.*:synthesis\*.*:implement\*.*
+SERVERFARM_SFM_RESOURCE=
+TOPLEVEL=MAC_tb
+WAVEFORMS=
+DEFWAVE=0
+ADD_HIERARCHY_SIGNALS=0
+[SpecTracer]
+WindowVisible=0
+[HierarchyViewer]
+HierarchyInformation=
+ShowHide=ShowTopLevel
+Selected=

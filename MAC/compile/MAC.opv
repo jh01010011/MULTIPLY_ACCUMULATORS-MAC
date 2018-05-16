@@ -1,0 +1,1 @@
+ -erf "C:\Users\blueb\OneDrive\STUDY\DSF_HOME\LAB05\MAC\compile\MAC.erf" -work MAC -lc C:/Users/blueb/OneDrive/STUDY/DSF_HOME/LAB05/library.cfg -fl C:/Users/blueb/OneDrive/STUDY/DSF_HOME/LAB05/MAC/projlib.cfg -o C:/Users/blueb/OneDrive/STUDY/DSF_HOME/LAB05/MAC/compile -l "MAC"   -O2 -l COOLRUNNERII

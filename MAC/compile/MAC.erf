@@ -1,0 +1,24 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+MESSAGE_SP VCP2113 "Module \$root found in current working library."
+BEGINPROGRESS Compiling...
+MESSAGE_SP VCP2123 "Package MAC_PKG found in current working library."
+UPDATEPROGRESS 35
+MESSAGE_SP VCP2113 "Module MAC found in current working library."
+MESSAGE "Pass 2. Processing instantiations."
+UPDATEPROGRESS 45
+MESSAGE "Pass 3. Processing behavioral statements."
+UPDATEPROGRESS 80
+MESSAGE "Running Optimizer."
+MESSAGE "ELB/DAG code generating."
+MESSAGE_SP VCP2113 "Module \$root found in current working library."
+UPDATEPROGRESS 82
+UPDATEPROGRESS 85
+UPDATEPROGRESS 88
+UPDATEPROGRESS 91
+UPDATEPROGRESS 94
+MESSAGE "Unit top modules: MAC_tb."
+MESSAGE "$root top modules: MAC_tb."
+UPDATEPROGRESS 100
+ENDPROGRESS Compiling...
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time: 0[s]."
+MESSAGE "done"

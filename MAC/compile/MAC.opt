@@ -1,0 +1,1 @@
+ -u "C:\Aldec\Active-HDL 9.3\bin/systf.dll" "C:\Users\blueb\OneDrive\STUDY\DSF_HOME\LAB05\MAC\src\TestBench\MAC_TB.v"  -cs  -g 5  -r -li "C:\Users\blueb\OneDrive\STUDY\DSF_HOME\LAB05\MAC\compile\MAC.epr" -p "C:\Users\blueb\OneDrive\STUDY\DSF_HOME\LAB05\MAC\MAC"  -b "COOLRUNNERII" 
